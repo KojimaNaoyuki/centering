@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <div class="box">
+        <h1>親要素</h1>
+        <div class="box-in">
+            <h2>子要素</h2>
+            <p>widthを指定しなければ左右に均等にpaddingをつけることでセンタリングを実現できる</p>
+        </div>
+    </div>
+
+    <div class="box2">
+        <h1>親要素</h1>
+        <div class="box2-in">
+            <h2>子要素</h2>
+            <p>widthを指定した場合はmargin: auto; 均等に余白がつけられる</p>
+        </div>
+    </div>
+
+    <div class="box3">
+        <p>bodyが親要素になっている</p>
+        <p>widthを指定した場合はmargin: auto; 均等に余白がつけられる</p>
+    </div>
+
+    <!-- //////////////////////////////////////////////////////////// -->
+
+    <div class="box4">
+        <h1>親要素(h1)</h1>
+        <h2>text-align: center; が効く要素(h2,h3)</h2>
+        <p>text-align: center; が効く要素(p)</p>
+        <img src="" alt="text-align: center; が効く要素(img)">
+        <a href="#">text-align: center; が効く要素(a)</a>
+        <dl>
+            <dt>text-align: center; が効く要素(dt,dd)</dt>
+            <dd><input type="text" name="" id=""></dd>
+        </dl>
+    </div>
+</body>
+</html>
