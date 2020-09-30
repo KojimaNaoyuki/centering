@@ -29,4 +29,18 @@ body {
 
 .box4 {
     text-align: center;
+    &-inBlock {
+        margin: 20px;
+        padding: 20px;
+        background-color: aqua;
+        display: block;
+        width: 500px;
+    }
+    &-inInline {
+        margin: 20px;
+        background-color: aqua;
+        padding: 20px;
+        display: inline-block;
+        width: 500px;
+    }
 }
